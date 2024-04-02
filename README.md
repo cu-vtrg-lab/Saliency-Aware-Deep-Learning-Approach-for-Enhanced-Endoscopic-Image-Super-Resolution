@@ -39,17 +39,17 @@ Our work introduces a novel deep learning framework tailored for endoscopic imag
 
 ## Assessment of the Visual Quality of SR Images Created Through Image Super-Resolution Techniques
 
-- **At a $\times2$ Scale Factor on the SCARED Dataset:**
+- **At a ×2 Scale Factor on the SCARED Dataset:**
   <p align="center">
     <img src="https://github.com/MansoorHayat777/StereoEndoscopicImageSuper-Resolution-SEISR/raw/main/SEISR/scale_2.jpeg" width="100%">
   </p>
 
-- **At a $\times4$ Scale Factor on the Robotic Instrument Segmentation Dataset:**
+- **At a ×4 Scale Factor on the Robotic Instrument Segmentation Dataset:**
   <p align="center">
     <img src="https://github.com/MansoorHayat777/StereoEndoscopicImageSuper-Resolution-SEISR/raw/main/SEISR/scale_4.jpeg" width="100%">
   </p>
 
-- **At a $\times8$ Scale Factor on the Stereo Correspondence and Reconstruction Dataset:**
+- **At a ×8 Scale Factor on the Stereo Correspondence and Reconstruction Dataset:**
   <p align="center">
     <img src="https://github.com/MansoorHayat777/StereoEndoscopicImageSuper-Resolution-SEISR/raw/main/SEISR/scale_8.jpeg" width="100%">
   </p>
