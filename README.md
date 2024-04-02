@@ -12,12 +12,12 @@ The adoption of Stereo Imaging technology within endoscopic procedures represent
 - **Matlab**: For training/test data generation and performance evaluation.
 
 ### Train
-- **Data Preparation**: Download the training sets from  (Key: NUDT) and unzip them into `./data/train/`.
+- **Data Preparation**: Download the training sets from (https://endovis.grand-challenge.org) for SCARED dataset unzip this into `./data/train/`.
 - **Generate Patches**: Run `./data/train/GenerateTrainingPatches.m` in Matlab to generate training patches.
 - **Training**: Execute `python train.py` to start the training process. The checkpoints will be saved to `./log/`.
 
 ### Test
-- **Data Preparation**: Download the full test sets used in our paper from [Google Drive](https://drive.google.com/file/d/1LQDUclNtNZWTT41NndISLGvjvuBbxeUs/view?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/1SIYGcMBEDDZ0wYrkxL9bnQ) (Key: NUDT) and unzip them into `./data`.
+- **Data Preparation**: Download the full test sets the SCARED dataset, the MICCAI 2017 Kidney Boundary Detection SubChallenge; the Kidney Boundary Detection dataset, the MICCAI 2017 Robotic Instrument Segmentation Sub-Challenge; Robotic Instrument Segmentation, and the MICCAI 2019 challenge on Stereo Correspondence and Reconstruction of Endoscopic Data; Stereo Correspondence and Reconstruction from (https://endovis.grand-challenge.org) and da Vinci dataset from (https://github.com/hgfe/DCSSR) unzip them into `./data`.
 - **Inference**: Run `python test.py` to perform a demo inference. The resulting images (`.png` files) will be saved in `./results`.
 - **Evaluation**: Execute `evaluation.m` in Matlab to compute the PSNR and SSIM scores.
 
