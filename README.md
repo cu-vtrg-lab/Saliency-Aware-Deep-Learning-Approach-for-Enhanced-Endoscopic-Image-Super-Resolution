@@ -5,20 +5,19 @@ This repository contains the official implementation of the methods presented in
   <img src="https://github.com/MansoorHayat777/StereoEndoscopicImageSuper-Resolution-SEISR/raw/main/SEISR/Block%20Diagram.JPG" width="100%">
 </p>
 
-## Abstract
+## Overview
 Our work introduces a novel deep learning framework tailored for endoscopic image super-resolution, with a focus on saliency-aware mechanisms to preserve and highlight critical diagnostic features in the upsampled images.
-## Codes and Models
 
-### Requirements
+## Requirements
 - **PyTorch 1.3.0, torchvision 0.4.1**: The code is tested with `python=3.7, cuda=9.0`.
 - **Matlab**: For training/test data generation and performance evaluation.
 
-### Train
+## Train
 - **Data Preparation**: Download the training sets from (https://endovis.grand-challenge.org) for SCARED dataset unzip this into `./data/train/`.
 - **Generate Patches**: Run `./data/train/GenerateTrainingPatches.m` in Matlab to generate training patches.
 - **Training**: Execute `python train.py` to start the training process. The checkpoints will be saved to `./log/`.
 
-### Test
+## Test
 - **Data Preparation**: Acquire the complete test sets:
   - **SCARED dataset**: Available at [EndoVis Grand Challenge](https://endovis.grand-challenge.org).
   - **MICCAI 2017 Kidney Boundary Detection SubChallenge dataset**:  Available at [EndoVis Grand Challenge](https://endovis.grand-challenge.org).
