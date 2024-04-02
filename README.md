@@ -1,6 +1,9 @@
 # Saliency-Aware Deep Learning Approach for Enhanced Endoscopic Image Super-Resolution
 
 This repository contains the official implementation of the methods presented in our paper "Saliency-Aware Deep Learning Approach for Enhanced Endoscopic Image Super-Resolution," currently under review.
+<p align="center">
+  <img src="https://github.com/MansoorHayat777/StereoEndoscopicImageSuper-Resolution-SEISR/raw/main/SEISR/Block%20Diagram.JPG" width="100%">
+</p>
 
 ## Abstract
 
