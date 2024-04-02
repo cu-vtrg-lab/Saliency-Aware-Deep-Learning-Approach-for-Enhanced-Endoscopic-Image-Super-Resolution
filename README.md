@@ -23,9 +23,8 @@ Our work introduces a novel deep learning framework tailored for endoscopic imag
 - **Inference**: Run `python test.py` to perform a demo inference. The resulting images (`.png` files) will be saved in `./results`.
 - **Evaluation**: Execute `evaluation.m` in Matlab to compute the PSNR and SSIM scores.
 
-## Quantitative Resultss
+## Quantitative Results
 
-- **At a $\times2$ Scale Factor on the SCARED Dataset:**
   <p align="center">
     <img src="https://github.com/MansoorHayat777/StereoEndoscopicImageSuper-Resolution-SEISR/raw/main/SEISR/Capture.JPG" width="100%">
   </p>
