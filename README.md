@@ -24,7 +24,7 @@ Our work introduces a novel deep learning framework tailored for endoscopic imag
 - **Evaluation**: Execute `evaluation.m` in Matlab to compute the PSNR and SSIM scores.
 
 
-#### Assessment of the Visual Quality of High-Resolution Images Created Through Image Super-Resolution Techniques
+## Assessment of the Visual Quality of High-Resolution Images Created Through Image Super-Resolution Techniques
 
 - **At a $\times2$ Scale Factor on the SCARED Dataset:**
   <p align="center">
