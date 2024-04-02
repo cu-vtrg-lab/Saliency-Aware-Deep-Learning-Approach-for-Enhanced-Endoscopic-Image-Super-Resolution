@@ -23,8 +23,14 @@ Our work introduces a novel deep learning framework tailored for endoscopic imag
 - **Inference**: Run `python test.py` to perform a demo inference. The resulting images (`.png` files) will be saved in `./results`.
 - **Evaluation**: Execute `evaluation.m` in Matlab to compute the PSNR and SSIM scores.
 
+## Quantitative Resultss
 
-## Assessment of the Visual Quality of High-Resolution Images Created Through Image Super-Resolution Techniques
+- **At a $\times2$ Scale Factor on the SCARED Dataset:**
+  <p align="center">
+    <img src="https://github.com/MansoorHayat777/StereoEndoscopicImageSuper-Resolution-SEISR/raw/main/SEISR/Capture.JPG" width="100%">
+  </p>
+
+## Assessment of the Visual Quality of SR Images Created Through Image Super-Resolution Techniques
 
 - **At a $\times2$ Scale Factor on the SCARED Dataset:**
   <p align="center">
@@ -41,8 +47,4 @@ Our work introduces a novel deep learning framework tailored for endoscopic imag
     <img src="https://github.com/MansoorHayat777/StereoEndoscopicImageSuper-Resolution-SEISR/raw/main/SEISR/scale_8.jpeg" width="100%">
   </p>
 
-
-## Installation
-
-To run the code, please install the required libraries as listed in `requirements.txt` (if available). If a `requirements.txt` is not included, please ensure you have a Python environment with the necessary libraries such as TensorFlow or PyTorch, OpenCV, NumPy, etc.
 
