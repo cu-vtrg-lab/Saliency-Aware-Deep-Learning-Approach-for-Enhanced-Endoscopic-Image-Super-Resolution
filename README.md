@@ -19,9 +19,18 @@ Our work introduces a novel deep learning framework tailored for endoscopic imag
 - **Training**: Execute `python train.py` to start the training process. The checkpoints will be saved to `./log/`.
 
 ### Test
-- **Data Preparation**: Download the full test sets the SCARED dataset, the MICCAI 2017 Kidney Boundary Detection SubChallenge; the Kidney Boundary Detection dataset, the MICCAI 2017 Robotic Instrument Segmentation Sub-Challenge; Robotic Instrument Segmentation, and the MICCAI 2019 challenge on Stereo Correspondence and Reconstruction of Endoscopic Data; Stereo Correspondence and Reconstruction from (https://endovis.grand-challenge.org) and da Vinci dataset from (https://github.com/hgfe/DCSSR) unzip them into `./data`.
-- **Inference**: Run `python test.py` to perform a demo inference. The resulting images (`.png` files) will be saved in `./results`.
-- **Evaluation**: Execute `evaluation.m` in Matlab to compute the PSNR and SSIM scores.
+- **Data Preparation**: Acquire the complete test sets:
+  - **SCARED dataset**: Available at [EndoVis Grand Challenge](https://endovis.grand-challenge.org).
+  - **MICCAI 2017 Kidney Boundary Detection SubChallenge dataset**.
+  - **MICCAI 2017 Robotic Instrument Segmentation Sub-Challenge dataset**.
+  - **MICCAI 2019 Challenge on Stereo Correspondence and Reconstruction of Endoscopic Data dataset**.
+  - **Da Vinci dataset**: Accessible at [GitHub - hgfe/DCSSR](https://github.com/hgfe/DCSSR).
+  
+  After downloading, unzip the datasets into the `./data` directory.
+
+- **Inference**: Execute `python test.py` to perform a demo inference. The `.png` files showcasing the results will be stored in the `./results` folder.
+
+- **Evaluation**: Run `evaluation.m` in Matlab to calculate the PSNR and SSIM metrics, which are standard for assessing image quality.
 
 ## Quantitative Results
 
