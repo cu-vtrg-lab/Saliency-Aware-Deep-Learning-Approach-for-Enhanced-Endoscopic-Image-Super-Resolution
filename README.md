@@ -21,9 +21,9 @@ Our work introduces a novel deep learning framework tailored for endoscopic imag
 ### Test
 - **Data Preparation**: Acquire the complete test sets:
   - **SCARED dataset**: Available at [EndoVis Grand Challenge](https://endovis.grand-challenge.org).
-  - **MICCAI 2017 Kidney Boundary Detection SubChallenge dataset**.
-  - **MICCAI 2017 Robotic Instrument Segmentation Sub-Challenge dataset**.
-  - **MICCAI 2019 Challenge on Stereo Correspondence and Reconstruction of Endoscopic Data dataset**.
+  - **MICCAI 2017 Kidney Boundary Detection SubChallenge dataset**:  Available at [EndoVis Grand Challenge](https://endovis.grand-challenge.org).
+  - **MICCAI 2017 Robotic Instrument Segmentation Sub-Challenge dataset**:  Available at [EndoVis Grand Challenge](https://endovis.grand-challenge.org).
+  - **MICCAI 2019 Challenge on Stereo Correspondence and Reconstruction of Endoscopic Data dataset**:  Available at [EndoVis Grand Challenge](https://endovis.grand-challenge.org).
   - **Da Vinci dataset**: Accessible at [GitHub - hgfe/DCSSR](https://github.com/hgfe/DCSSR).
   
   After downloading, unzip the datasets into the `./data` directory.
