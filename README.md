@@ -37,7 +37,7 @@ Our work introduces a novel deep learning framework tailored for endoscopic imag
     <img src="https://github.com/MansoorHayat777/StereoEndoscopicImageSuper-Resolution-SEISR/raw/main/SEISR/Capture.JPG" width="100%">
   </p>
 
-## Assessment of the Visual Quality of SR Images Created Through Image Super-Resolution Techniques
+## Perceptual Results
 
 - ** On ×2 Scale Factor on the SCARED Dataset:**
   <p align="center">
