@@ -4,34 +4,7 @@ This repository contains the official implementation of the methods presented in
 
 ## Abstract
 
-The adoption of Stereo Imaging technology
-within endoscopic procedures represents a transformative
-advancement in medical imaging, providing surgeons with
-depth perception and detailed views of internal anatomy
-for enhanced diagnostic accuracy and surgical precision.
-However, the practical application of stereo imaging in
-endoscopy faces challenges, including the generation of
-low-resolution and blurred images, which can hinder the
-effectiveness of medical diagnoses and interventions. Our
-research introduces an endoscopic image super-resolution
-model in response to these specific. This model features
-an innovative feature extraction module and an advanced
-cross-view feature interaction module tailored for
-the intricacies of endoscopic imagery. Initially trained on
-the SCARED dataset, our model was rigorously tested
-across four additional publicly available endoscopic image
-datasets at scales 2, 4, and 8, demonstrating unparalleled
-performance improvements in endoscopic superresolution.
-Our results are compelling, showing that our
-model not only substantially enhances the quality of endoscopic
-images but also consistently surpasses other
-existing methods in all tested datasets, in quantitative measures
-such as PSNR and SSIM, and qualitative evaluations.
-The successful application of our super-resolution model
-in endoscopic imaging has the potential to revolutionize
-medical diagnostics and surgery, significantly increasing
-the precision and effectiveness of endoscopic procedures.
-
+The adoption of Stereo Imaging technology within endoscopic procedures represents a transformative advancement in medical imaging, providing surgeons with depth perception and detailed views of internal anatomy for enhanced diagnostic accuracy and surgical precision. However, the practical application of stereo imaging in endoscopy faces challenges, including the generation of low-resolution and blurred images, which can hinder the effectiveness of medical diagnoses and interventions. Our research introduces an endoscopic image super-resolution model in response to these specific. This model features an innovative feature extraction module and an advanced cross-view feature interaction module tailored for the intricacies of endoscopic imagery. Initially trained on the SCARED dataset, our model was rigorously tested across four additional publicly available endoscopic image datasets at scales 2, 4, and 8, demonstrating unparalleled performance improvements in endoscopic super-resolution. Our results are compelling, showing that our model not only substantially enhances the quality of endoscopic images but also consistently surpasses other existing methods in all tested datasets, in quantitative measures such as PSNR and SSIM, and qualitative evaluations. The successful application of our super-resolution model in endoscopic imaging has the potential to revolutionize medical diagnostics and surgery, significantly increasing the precision and effectiveness of endoscopic procedures.
 ## Structure
 
 The repository includes the following key components:
